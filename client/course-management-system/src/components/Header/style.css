@@ -1,0 +1,41 @@
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #efefef;
+    background: #282c34;
+}
+.header .container {
+    width: 1110px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .container .logo {
+    margin: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header .container .menu a {
+    color: #cdcdcf;
+    margin-left: 16px;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+
+.header .container .menu a:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mainHead {
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,44 @@
+.page{
+    width: 1110px;
+    margin: auto;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #282c34;
+    border-radius: 10px;
+}
+
+.submitButton {
+    background-color:#282c34;
+    color: black;
+    border: 2px solid #232b3b;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #535761;
+    color: white;
+}
